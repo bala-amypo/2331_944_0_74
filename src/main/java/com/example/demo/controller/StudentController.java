@@ -26,4 +26,5 @@ public class Studentcontroller {
     public List<Studententity> getdata() {
         return src.retdata();
     }
+    @GetMapping("/update/(id)")
 }
