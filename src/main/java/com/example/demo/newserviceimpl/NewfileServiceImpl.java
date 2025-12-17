@@ -5,6 +5,7 @@ import com.example.demo.newentity. NewfileEntity;
 import com.example.demo.newservice.NewfileService;
 @Service
 public class NewfileServiceImpl implements NewfileService{
+    
 @Override
 public NewfileEntity savedata(NewfileEntity newfile) {
 }
@@ -19,3 +20,5 @@ public NewfileEntity update(Long id, NewfileEntity newfile) {
 }
 @Override
 public void delete(Long id) {
+}
+}
